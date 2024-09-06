@@ -1,0 +1,811 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:  400;
+    font-style: normal;
+}
+
+
+.container-fluid {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fff;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo span{
+    font-size: 20px;
+    line-height: 37px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+.nav ul li {
+    margin-right: 20px;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: normal;
+}
+.get-started-button{
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.banner {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.banner h1 {
+    font-size: 50px;
+    color: #1a1a1a;
+    font-weight: 800;
+    font-family:"Plus Jakarta Sans", sans-serif;
+    line-height: 75px;
+}
+
+.highlight {
+    color: #0070f3;
+}
+
+.cta-button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    width: 70%;
+    margin: 0 auto;
+}
+.main-banner-button{
+    margin-left: 10px;
+}
+.main-banner-button-text{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 32px;
+}
+.sec-banner-button-text{
+    font-size: 20px;
+    line-height: 32px;
+    color: #D4CFCF;
+}
+
+.ad-details {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    color: #707BA0;
+}
+.ad-details span{
+    margin-top: 7px;
+}
+.ad-detail{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    color: #707BA0;
+    width: 60%;
+    margin:  0  auto;
+}
+.shopify{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+section {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.star{
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+}
+
+.how-we-help h2{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    color: #235AE9;
+    text-align: center;
+}
+.how-we-help{
+    background-color: #EDF5FE;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.help-items {
+    justify-content: center;
+}
+
+.help-item, .faq-item {
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto 20px;
+    text-align: left;
+    background: #FFFFFF;
+    box-shadow: 0 15px 30px rgba(0, 131, 255, 0.15);
+    border-radius: 12px;
+}
+.help-item h3{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: #000000;
+}
+.help-item p{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: #707BA0;
+}
+.help-cta-button{
+    color: #fff;
+    text-decoration: none;
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 468px;
+    height: 82px;
+    background: #235AE9;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    padding: 20px;
+    font-weight: bolder;
+
+}
+
+.help-cta-button img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-left: 10px;
+}
+
+.how-it-works h2{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #000000;
+    text-align: center;
+}
+.how-it-works p{
+    font-size: 25px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #707BA0;
+    text-align: center;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.step{
+    background: #235AE9;
+    box-shadow: 0 94px 115px rgba(0, 0, 0, 0.03);
+    width: 368px;
+    height: 444px;
+    border-radius: 30px;
+    color: #fff;
+    padding: 20px;
+}
+.step-content{
+    padding: 20px;
+    display: flex;
+}
+
+.step-content span{
+    padding: 20px;
+    background-color: #fff;
+    color: #235AE9;
+    border-radius: 100%;
+    font-size: 50px;
+    font-weight: 700;
+    width: 70px;
+    height: 70px;
+    top: 3001px;
+    left: 161px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+}
+.step h3{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: #235AE9;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2px;
+}
+.step p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+.pricing h2{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #000000;
+    text-align: center;
+}
+.pricing-options {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.pricing-item {
+    padding: 20px;
+    color: #ffffff;
+    width: 650px;
+    height: fit-content;
+    background: #235AE9;
+    box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    position: relative;
+    text-align: center;
+}
+
+.pricing-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    border-radius: 10px;
+    position: relative;
+    z-index: 0;
+    margin: 0 auto;
+}
+
+.pricing-item span p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #235AE9;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.price {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 49px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pricing-item button {
+    background-color: #fff;
+    color: #0070f3;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 60%;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 auto;
+}
+.testimonials{
+    background-color: #EDF5FE;
+}
+.testimonials h2{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 38px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #000000;
+    text-align: center;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.testimonial {
+    width: 30%;
+    text-align: left;
+}
+.testimonial img{
+    object-fit: contain;
+    width: 298px;
+    height: 220px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 14px;
+    margin-bottom: 20px;
+}
+.testimonial h3{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    color: #000000;
+}
+.testimonial p{
+    font-size: 16px;
+    line-height: 27px;
+    text-align: justify-all;
+}
+.cta-button-info{
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    padding: 20px;
+    background: #235AE9;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+
+}
+.cta-button-info img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.faq h2{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+}
+.faq-item h3{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: #081131;
+    margin-bottom: 20px;
+}
+.footer {
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    background-image: url(../img/footerbgleft.png), url(../img/footerigtbg.png);
+    background-position: left bottom, right bottom;
+    background-repeat: no-repeat;
+    background-color: #235AE9;
+    box-shadow: 0 49px 115px rgba(0, 131, 255, 0.25);
+}
+.footer span{
+    font-size: 20px;
+    line-height: 37px;
+    font-weight: 700;
+    margin-left: 10px;
+    flex-grow: 1;
+    width: 70%;
+}
+.footer h2 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.cta-button-footer{
+    padding: 10px 20px;
+    color: #235AE9;
+    text-decoration: none;
+    font-size: 30px;
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    background: #fff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+}
+
+.footer-logo-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.footer-logo img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+.footer-logo span{
+    font-size: 20px;
+    line-height: 37px;
+    font-weight: 700;
+    margin-left: 10px;
+    color: #151E3A;
+}
+
+.footer-logo p{
+    font-size: 10px;
+    line-height: 22px;
+    font-weight: 500;
+    text-align: center;
+    color: #151E3A;
+    margin-bottom: 40px;
+}
+
+.footer .small-print {
+    font-size: 12px;
+    color: #c0c0c0;
+    margin-top: 20px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav ul li {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    .banner h1 {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 32px;
+    }
+
+    .cta-button {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .pricing-options {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .pricing-item {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .steps {
+        flex-direction: column;
+    }
+
+    .step {
+        width: 100%;
+    }
+
+    .testimonial-cards {
+        flex-direction: column;
+    }
+
+    .testimonial {
+        width: 100%;
+    }
+
+    .cta-button-info {
+        width: 100%;
+    }
+
+    .help-cta-button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container{
+        padding: 0 10px;
+        width: 100%;
+    }
+    p{
+        font-size: 14px;
+    }
+    span{
+        font-size: 14px;
+    }
+    .header{
+        display: none;
+    }
+    .logo img{
+        width: 38px;
+        height: 39px;
+        object-fit: contain;
+    }
+    .navbar-toggler {
+        background-color: #E8F2FF !important;
+        color: #0083FF !important;
+        border: none !important;
+    }
+    .navbar-toggler-icon {
+        color: #0083FF !important;
+    }
+    .banner{
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .banner h1{
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .video-wrapper img{
+        width: 100%;
+        height: 100%;
+    }
+    .main-banner-button-text{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .sec-banner-button-text{
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .cta-button{
+        width: 90%;
+        font-size: 16px;
+    }
+    .cta-button img{
+        width: 30px;
+        height: 23px;
+        object-fit: contain;
+    }
+    .main-banner-button{
+        margin-left: 0;
+    }
+    .shopify{
+        width: 30px;
+        height: 30px;
+    }
+    .ad-detail{
+        font-size: 14px;
+        text-align: center;
+        width: 90%;
+        padding: 20px;
+    }
+    .how-we-help h2{
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 30px;
+        line-height: 25px;
+    }
+    .star{
+        width: 62px;
+        height: 62px;
+        object-fit: contain;
+        margin-top: 20px;
+    }
+    .help-item, .faq-item {
+        width: 90%;
+        padding: 10px;
+        margin: 0 auto 20px;
+    }
+    .help-item h3{
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .help-item p{
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .help-cta-button{
+        font-size: 18px;
+        height: 50px;
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .help-cta-button img{
+        width: 30px;
+        height: 30px;
+    }
+    .how-we-help{
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .how-it-works h2{
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 30px;
+        line-height: 25px;
+    }
+    .how-it-works p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .step{
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+    .step p{
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: normal;
+        padding: 10px;
+    }
+    .pricing h2{
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 30px;
+        line-height: 25px;
+    }
+    .pricing-item{
+        padding: 10px;
+    }
+    .pricing-item span p{
+        display: none;
+    }
+    .pricing-item img{
+        height: 100%;
+    }
+    .price{
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .pricing-item button{
+        font-size: 16px;
+        padding: 5px;
+        width: 90%;
+        border-radius: 12px;
+        margin-bottom: 20px;
+    }
+    .testimonials h2{
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 30px;
+        line-height: 25px;
+    }
+    .testimonial-cards{
+        flex-direction: column;
+        width: 100%;
+    }
+    .testimonial img{
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 10px;
+    }
+    .testimonial h3{
+        font-size: 27px;
+        line-height: 25px;
+        padding-left: 10px;
+    }
+    .testimonial p{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 10px;
+    }
+    .cta-button-info{
+        font-size: 18px;
+        width: 90%;
+        padding: 10px;
+    }
+    .cta-button-info img{
+        width: 20px;
+        height: 20px;
+    }
+    .how-we-help h2{
+        font-size: 28px;
+        line-height: 25px;
+    }
+    .cta-button-footer{
+        font-size: 18px;
+        width: 90%;
+        padding: 10px;
+    }
+    .footer-logo-content span{
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .footer-logo img{
+        width: 40px;
+        height: 40px;
+    }
+    .footer-logo p{
+        font-size: 10px;
+        line-height: 25px;
+        padding: 10px;
+    }
+}
