@@ -246,9 +246,13 @@ section {
     border-radius: 30px;
     color: #fff;
     padding: 20px;
+    margin-right: 20px;
+}
+.step:last-child {
+    margin-right: 0;
 }
 .step-content{
-    padding: 20px;
+    padding-top: 20px;
     display: flex;
 }
 
@@ -353,7 +357,7 @@ section {
     margin-bottom: 20px;
 }
 
-.pricing-item button {
+.pricing-item .price-btn {
     background-color: #fff;
     color: #0070f3;
     padding: 10px 20px;
@@ -364,6 +368,7 @@ section {
     font-size: 20px;
     font-weight: 700;
     margin: 0 auto;
+    text-decoration: none;
 }
 .testimonials{
     background-color: #EDF5FE;
@@ -633,6 +638,9 @@ section {
         font-size: 22px;
         line-height: 25px;
     }
+    .banner .highlight{
+        font-size: 22px;
+    }
     .video-wrapper img{
         width: 100%;
         height: 100%;
@@ -648,6 +656,7 @@ section {
     .cta-button{
         width: 90%;
         font-size: 16px;
+        padding: 2px;
     }
     .cta-button img{
         width: 30px;
@@ -684,12 +693,13 @@ section {
         margin: 0 auto 20px;
     }
     .help-item h3{
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-size: 13px;
+        font-family: "popins", sans-serif;
+        font-size: 16px;
         line-height: 19px;
+        font-weight: 700;
     }
     .help-item p{
-        font-size: 13px;
+        font-size: 12px;
         line-height: 19px;
     }
     .help-cta-button{
@@ -721,6 +731,9 @@ section {
         height: fit-content;
         margin-bottom: 20px;
     }
+    .step-content {
+         padding: 0;
+    }
     .step p{
         font-size: 18px;
         line-height: 25px;
@@ -736,7 +749,9 @@ section {
         padding: 10px;
     }
     .pricing-item span p{
-        display: none;
+        font-size: 14px;
+        line-height: 20px;
+        width: 90%;
     }
     .pricing-item img{
         height: 100%;
@@ -746,11 +761,11 @@ section {
         line-height: 30px;
         margin-bottom: 10px;
     }
-    .pricing-item button{
+    .pricing-item .price-btn {
         font-size: 16px;
         padding: 5px;
-        width: 90%;
-        border-radius: 12px;
+        width: 80%;
+        border-radius: 10px;
         margin-bottom: 20px;
     }
     .testimonials h2{
@@ -790,10 +805,18 @@ section {
         font-size: 28px;
         line-height: 25px;
     }
+    .help-item, .faq-item h3{
+        font-size: 18px;
+        line-height: 25px;
+    }
     .cta-button-footer{
         font-size: 18px;
         width: 90%;
         padding: 10px;
+    }
+    .footer h2{
+        font-size: 16px;
+        line-height: 22px;
     }
     .footer-logo-content span{
         font-size: 25px;
