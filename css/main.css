@@ -556,6 +556,9 @@ section {
     margin:  0  auto;
     font-weight: 500;
 }
+.mobile-hide{
+    display: none;
+}
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
@@ -620,6 +623,12 @@ section {
 }
 
 @media (max-width: 480px) {
+    .mobile-hide{
+        display: none;
+    }
+    .mobile-show{
+        display: block;
+    }
     .container{
         padding: 0 10px;
         width: 100%;
@@ -728,16 +737,16 @@ section {
         margin: 0 auto 10px;
     }
     .help-item h3{
-        font-family: "popins", sans-serif;
-        font-size: 16px;
-        line-height: 19px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 13px;
+        line-height: 16px;
         font-weight: 700;
         margin-bottom: 0;
     }
     .help-item p{
         font-family: "Inter", sans-serif;
         font-size: 11px;
-        line-height: 17px;
+        line-height: 13px;
         font-weight: 500;
     }
     .help-cta-button{
