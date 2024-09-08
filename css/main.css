@@ -248,7 +248,6 @@ section {
     display: flex;
     justify-content: space-around;
     padding: 20px 0;
-    margin-top: 20px;
 }
 
 .step{
@@ -786,15 +785,18 @@ section {
     }
     .how-it-works h2{
         font-family: "Plus Jakarta Sans", sans-serif;
-        font-size: 30px;
-        line-height: 25px;
+        font-size: 26px;
+        line-height: 52px;
         font-weight: 700;
+        margin-bottom: 0;
     }
     .how-it-works p{
         font-family: "Inter", sans-serif;
-        font-size: 11px;
+        font-size: 14px;
         line-height: 20px;
         font-weight: 500;
+        width: 65%;
+        margin: 0 auto;
     }
     .step{
         width: 100%;
@@ -803,6 +805,22 @@ section {
     }
     .step-content {
          padding: 0;
+    }
+    .step-content span{
+        width: 42px;
+        height: 42px;
+        left: 70%;
+        font-size: 26px;
+        line-height: 39px;
+        font-family: "Poppins", sans-serif;
+        transform: translate(-10%, -10%);
+    }
+    .step-content img{
+        width: 160px;
+        height: 160px;
+        object-fit: contain;
+        margin-left: 10%;
+        margin-bottom: 20px;
     }
     .step p{
         font-family: "Inter", sans-serif;
