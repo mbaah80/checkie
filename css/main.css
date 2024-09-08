@@ -86,7 +86,7 @@ body{
     justify-content: center;
     text-align: center;
     padding: 10px 20px;
-    background-color: #0070f3;
+    background-color: #225BEA;
     color: white;
     border-radius: 10px;
     text-decoration: none;
@@ -544,6 +544,18 @@ section {
     margin-top: 20px;
 }
 
+.mobile-ad-detail{
+    display: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    color: #707BA0;
+    width: 60%;
+    margin:  0  auto;
+    font-weight: 500;
+}
+
 /* Mobile responsiveness */
 @media (max-width: 768px) {
     .header {
@@ -665,10 +677,21 @@ section {
         font-size: 11px;
         line-height: 20px;
     }
+    .mobile-ad-detail{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 11px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .ad-detail{
+        display: none;
+    }
     .cta-button{
         width: 90%;
         font-size: 16px;
-        padding: 2px;
+        padding: 5px;
     }
     .cta-button img{
         width: 30px;
