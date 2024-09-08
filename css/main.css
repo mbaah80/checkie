@@ -111,12 +111,13 @@ body{
 }
 
 .ad-details {
-    margin-top: 20px;
+    margin-top: 5px;
     display: flex;
     justify-content: center;
     text-align: center;
     font-size: 25px;
     color: #707BA0;
+    font-weight: 500;
 }
 .ad-details span{
     margin-top: 7px;
@@ -185,8 +186,9 @@ section {
     color: #000000;
 }
 .help-item p{
+    font-family: "Inter", sans-serif;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 27px;
     text-align: left;
     color: #707BA0;
@@ -226,9 +228,10 @@ section {
     text-align: center;
 }
 .how-it-works p{
-    font-size: 25px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
     line-height: 27px;
-    font-weight: 400;
+    font-weight: 500;
     color: #707BA0;
     text-align: center;
 }
@@ -293,8 +296,9 @@ section {
     padding: 2px;
 }
 .step p{
+    font-family: "Inter", sans-serif;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 27px;
     border-radius: 20px;
     color: #fff;
@@ -341,7 +345,7 @@ section {
 
 .pricing-item span p {
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
     color: #235AE9;
     position: absolute;
     top: 65%;
@@ -417,6 +421,7 @@ section {
     font-size: 16px;
     line-height: 27px;
     text-align: justify-all;
+    font-weight: 700;
 }
 .cta-button-info{
     padding: 10px 20px;
@@ -607,10 +612,13 @@ section {
         width: 100%;
     }
     p{
-        font-size: 14px;
+        font-family: "Inter", sans-serif;
+         font-size: 11px;
+         font-weight: 500;
     }
     span{
-        font-size: 14px;
+        font-family: "Inter", sans-serif;
+        font-size: 11px;
     }
     .header{
         display: none;
@@ -702,9 +710,10 @@ section {
         font-weight: 700;
     }
     .help-item p{
-        font-size: 12px;
-        line-height: 19px;
-        font-weight: 400;
+        font-family: "Inter", sans-serif;
+        font-size: 11px;
+        line-height: 17px;
+        font-weight: 500;
     }
     .help-cta-button{
         font-size: 18px;
@@ -725,10 +734,13 @@ section {
         font-family: "Plus Jakarta Sans", sans-serif;
         font-size: 30px;
         line-height: 25px;
+        font-weight: 700;
     }
     .how-it-works p{
-        font-size: 16px;
+        font-family: "Inter", sans-serif;
+        font-size: 11px;
         line-height: 20px;
+        font-weight: 500;
     }
     .step{
         width: 100%;
@@ -739,23 +751,27 @@ section {
          padding: 0;
     }
     .step p{
-        font-size: 18px;
+        font-family: "Inter", sans-serif;
+        font-size: 11px;
         line-height: 25px;
-        font-weight: normal;
+        font-weight: 500;
         padding: 10px;
     }
     .pricing h2{
         font-family: "Plus Jakarta Sans", sans-serif;
         font-size: 30px;
         line-height: 25px;
+        font-weight: 700;
     }
     .pricing-item{
         padding: 10px;
     }
     .pricing-item span p{
-        font-size: 14px;
+        font-family: "Inter", sans-serif;
+        font-size: 11px;
         line-height: 20px;
         width: 90%;
+        font-weight: 500;
     }
     .pricing-item img{
         height: 100%;
@@ -776,6 +792,7 @@ section {
         font-family: "Plus Jakarta Sans", sans-serif;
         font-size: 30px;
         line-height: 25px;
+        font-weight: 700;
     }
     .testimonial-cards{
         flex-direction: column;
@@ -790,11 +807,13 @@ section {
         font-size: 27px;
         line-height: 25px;
         padding-left: 10px;
+        font-weight: 700;
     }
     .testimonial p{
         font-size: 14px;
         line-height: 20px;
         padding: 10px;
+        font-weight: 500;
     }
     .cta-button-info{
         font-size: 18px;
@@ -808,10 +827,12 @@ section {
     .how-we-help h2{
         font-size: 28px;
         line-height: 25px;
+        font-weight: 700;
     }
     .help-item, .faq-item h3{
         font-size: 18px;
         line-height: 25px;
+        font-weight: 700;
     }
     .cta-button-footer{
         font-size: 18px;
@@ -821,10 +842,12 @@ section {
     .footer h2{
         font-size: 16px;
         line-height: 22px;
+        font-weight: 700;
     }
     .footer-logo-content span{
         font-size: 25px;
         line-height: 25px;
+        font-weight: 700;
     }
     .footer-logo img{
         width: 40px;
@@ -834,6 +857,7 @@ section {
         font-size: 10px;
         line-height: 25px;
         padding: 10px;
+        font-weight: 500;
     }
 }
 
