@@ -147,6 +147,7 @@ section {
     width: 72px;
     height: 72px;
     object-fit: contain;
+    margin-bottom: 10px;
 }
 
 .how-we-help h2{
@@ -154,7 +155,7 @@ section {
     font-size: 50px;
     line-height: 50px;
     font-weight: 700;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     text-decoration: underline;
     color: #235AE9;
     text-align: center;
@@ -712,8 +713,8 @@ section {
     }
     .how-we-help h2{
         font-family: "Plus Jakarta Sans", sans-serif;
-        font-size: 30px;
-        line-height: 25px;
+        font-size: 26px;
+        line-height: 32px;
     }
     .star{
         width: 62px;
@@ -724,13 +725,14 @@ section {
     .help-item, .faq-item {
         width: 90%;
         padding: 10px;
-        margin: 0 auto 20px;
+        margin: 0 auto 10px;
     }
     .help-item h3{
         font-family: "popins", sans-serif;
         font-size: 16px;
         line-height: 19px;
         font-weight: 700;
+        margin-bottom: 0;
     }
     .help-item p{
         font-family: "Inter", sans-serif;
@@ -851,11 +853,13 @@ section {
         font-size: 28px;
         line-height: 25px;
         font-weight: 700;
+        font-family: "Plus Jakarta Sans", sans-serif;
     }
     .help-item, .faq-item h3{
         font-size: 18px;
         line-height: 25px;
         font-weight: 700;
+        font-family: "Plus Jakarta Sans", sans-serif;
     }
     .cta-button-footer{
         font-size: 18px;
