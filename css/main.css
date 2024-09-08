@@ -630,12 +630,16 @@ section {
 }
 
 @media (max-width: 480px) {
+    .container-fluid{
+        padding: 0 !important;
+    }
     .mobile-hide{
         display: none;
     }
     .mobile-show{
         display: block;
     }
+
     .container{
         padding: 0 10px;
         width: 100%;
@@ -802,7 +806,7 @@ section {
     }
     .step p{
         font-family: "Inter", sans-serif;
-        font-size: 11px;
+        font-size: 14px;
         line-height: 25px;
         font-weight: 500;
         padding: 10px;
