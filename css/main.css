@@ -177,6 +177,11 @@ section {
     background: #FFFFFF;
     box-shadow: 0 15px 30px rgba(0, 131, 255, 0.15);
     border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-direction: column;
+
 }
 .help-item h3{
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -185,6 +190,7 @@ section {
     line-height: 27px;
     text-align: left;
     color: #000000;
+    margin-bottom: 0;
 }
 .help-item p{
     font-family: "Inter", sans-serif;
@@ -193,6 +199,7 @@ section {
     line-height: 27px;
     text-align: left;
     color: #707BA0;
+    margin-bottom: 0;
 }
 .help-cta-button{
     color: #fff;
@@ -731,10 +738,18 @@ section {
         object-fit: contain;
         margin-top: 20px;
     }
-    .help-item, .faq-item {
+    .faq-item {
         width: 90%;
         padding: 10px;
         margin: 0 auto 10px;
+    }
+    .help-item{
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
     }
     .help-item h3{
         font-family: "Plus Jakarta Sans", sans-serif;
