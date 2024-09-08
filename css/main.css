@@ -161,7 +161,7 @@ section {
     text-align: center;
 }
 .how-we-help{
-    background-color: #EDF5FE;
+    background-color: #fff;
     border-radius: 10px;
     margin-top: 20px;
 }
@@ -169,7 +169,7 @@ section {
     justify-content: center;
 }
 
-.help-item, .faq-item {
+.help-item{
     width: 80%;
     padding: 20px;
     margin: 0 auto 20px;
@@ -183,6 +183,20 @@ section {
     flex-direction: column;
 
 }
+.faq-item {
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto 20px;
+    text-align: left;
+    background: #FFFFFF;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-direction: column;
+}
+
 .help-item h3{
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 22px;
@@ -565,6 +579,50 @@ section {
 .mobile-hide{
     display: none;
 }
+.mobile-show{
+    display: none;
+}
+.desktop-show{
+    display: block;
+}
+.accordion{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.accordion-item{
+    border: none !important;
+    background: #FFFFFF;
+    border-radius: 12px !important;
+    margin-top: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.accordion-button{
+    border: none !important;
+}
+.accordion-button:not(.collapsed){
+    background-color: #fff;
+    color: #000;
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed){
+    box-shadow: none !important;
+}
+.accordion-button:not(.collapsed){
+    background-color: #fff !important;
+}
+.accordion-button::after{
+    display: none !important;
+}
+.accordion-button {
+    padding: 0 !important;
+}
+.accordion-body {
+    padding: 0 !important
+}
+
+.collapsed{
+    padding-bottom: 5px !important;
+}
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
@@ -629,6 +687,16 @@ section {
 }
 
 @media (max-width: 480px) {
+    .desktop-show{
+        display: none;
+    }
+    .accordion-item{
+        background: #FFFFFF;
+        border-radius: 12px !important;
+        margin-top: 10px;
+        box-shadow: 0px 2px 2px #F9FAFB;
+        border: 1px solid #F9FAFB !important;
+    }
     .container-fluid{
         padding: 0 !important;
     }
@@ -746,8 +814,17 @@ section {
     }
     .faq-item {
         width: 90%;
-        padding: 10px;
+        padding-left: 10px;
+        padding-top: 10px;
         margin: 0 auto 10px;
+    }
+    .faq-item p{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+    }
+    .faq-item h3 {
+        margin-bottom: 0;
     }
     .help-item{
         width: 100%;
@@ -785,6 +862,7 @@ section {
     .how-we-help{
         border-radius: 20px;
         padding: 10px;
+        background-color: #fff;
     }
     .how-it-works h2{
         font-family: "Plus Jakarta Sans", sans-serif;
