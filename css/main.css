@@ -846,11 +846,18 @@ section {
     }
     .pricing-item img{
         height: 100%;
+        width: 100%;
+        margin-bottom: 10px;
+        object-fit: contain;
+        margin-top: 10px;
     }
     .price{
         font-size: 30px;
         line-height: 30px;
         margin-bottom: 10px;
+        font-weight: 700;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        margin-top: -30px;
     }
     .pricing-item .price-btn {
         font-size: 16px;
