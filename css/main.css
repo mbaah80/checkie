@@ -643,6 +643,9 @@ section {
         padding: 0 10px;
         width: 100%;
     }
+    section{
+        padding: 10px;
+    }
     p{
         font-family: "Inter", sans-serif;
          font-size: 11px;
@@ -828,6 +831,9 @@ section {
         font-weight: 500;
         padding: 10px;
     }
+    .pricing{
+        margin-bottom: 50px;
+    }
     .pricing h2{
         font-family: "Plus Jakarta Sans", sans-serif;
         font-size: 30px;
@@ -882,16 +888,18 @@ section {
         margin-bottom: 10px;
     }
     .testimonial h3{
-        font-size: 27px;
-        line-height: 25px;
+        font-size: 25px;
+        line-height: 31px;
         padding-left: 10px;
         font-weight: 700;
+        font-family: "Plus Jakarta Sans", sans-serif;
     }
     .testimonial p{
         font-size: 14px;
-        line-height: 20px;
-        padding: 10px;
+        line-height: 17px;
+        padding-left: 10px;
         font-weight: 500;
+        font-family: "Plus Jakarta Sans", sans-serif;
     }
     .cta-button-info{
         font-size: 18px;
