@@ -923,10 +923,10 @@ section {
     }
     .pricing-item span p{
         font-family: "Inter", sans-serif;
-        font-size: 11px;
+        font-size: 14px;
         line-height: 20px;
         width: 90%;
-        font-weight: 500;
+        font-weight: 600;
     }
     .pricing-item img{
         height: 100%;
@@ -1001,12 +1001,12 @@ section {
         font-family: "Plus Jakarta Sans", sans-serif;
     }
     .cta-button-footer{
-        font-size: 18px;
-        width: 90%;
+        font-size: 11px;
+        width: fit-content;
         padding: 10px;
     }
     .footer h2{
-        font-size: 16px;
+        font-size: 11px;
         line-height: 22px;
         font-weight: 700;
     }
