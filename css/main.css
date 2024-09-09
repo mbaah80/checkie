@@ -733,7 +733,9 @@ section {
         width: 160px;
         height: 160px;
         object-fit: contain;
-        margin-left:5%;
+        margin-left: auto;
+        margin-right: auto;
+        
         margin-bottom: 20px;
     }
     .step p{
@@ -767,14 +769,10 @@ section {
         line-height: 25px;
         font-weight: 700;
     }
-    .cta-button,
-    .cta-button-info,
-    .help-cta-button,.cta-button-footer {
-        width: 60%;
+    .cta-button{
+        width: 65%;
     }
-    .pricing-item .price-btn{
-        width: 100%;
-    }
+
 
     .banner h1 {
         font-size: 48px;
