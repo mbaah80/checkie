@@ -771,7 +771,19 @@ section {
 
 
     .banner h1 {
-        font-size: 48px;
+        font-size: 50px;
+    color: rgb(26, 26, 26);
+    font-weight: 800;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    line-height: 75px;
+    }
+
+    .banner .highlight{
+        font-size: 50px;
+        color: rgb(26, 26, 26);
+        font-weight: 800;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        line-height: 75px;
     }
 
     .desktop-show {
