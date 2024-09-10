@@ -1420,20 +1420,20 @@ section {
     }
 
     .banner h1 {
-        font-size: 50px;
-    color: rgb(26, 26, 26);
-    font-weight: 800;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    line-height: 75px;
-    }
-
-    .banner .highlight{
-        font-size: 50px;
-        color: #0070f3;
-        font-weight: 800;
+        font-size: 64px;
+        color: rgb(26, 26, 26);
+        font-weight: 700;
         font-family: "Plus Jakarta Sans", sans-serif;
-        line-height: 75px;
-    }
+        line-height: 70px;
+        }
+    
+        .banner .highlight{
+            font-size: 64px;
+            color: #0070f3;
+            font-weight: 700;
+            font-family: "Plus Jakarta Sans", sans-serif;
+            line-height: 70px;
+        }
     .cta-button {
         width: 70%;
         font-size: 18px;
