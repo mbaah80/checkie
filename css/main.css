@@ -11,6 +11,9 @@ body{
     font-optical-sizing: auto;
     font-weight:  400;
     font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 p{
@@ -827,6 +830,7 @@ section {
         line-height: 37px;
         text-align: left;
         color: #000000;
+        margin-bottom: 0;
     }
     .testimonial p{
         font-family: "Inter", sans-serif;
@@ -1558,6 +1562,7 @@ section {
         line-height: 24px;
         font-weight: 700;
         font-family: "Plus Jakarta Sans", sans-serif;
+        margin-bottom: 0;
     }
 
     .testimonial p {
