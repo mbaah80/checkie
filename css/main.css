@@ -1122,7 +1122,7 @@ section {
     }
     .pricing-item{
         padding: 10px;
-        height: fit-content;
+        height: 383px;
     }
     .pricing-item span p{
         font-family: "Inter", sans-serif;
@@ -1130,12 +1130,13 @@ section {
         line-height: 20px;
         width: 90%;
         font-weight: 600;
+        display: none;
     }
     .pricing-item img{
-        width: 100%;
-        height: fit-content;
+        width: fit-content;
+        height: 290px;
         margin-bottom: 10px;
-        object-fit: contain;
+        object-fit: cover;
         margin-top: 10px;
     }
     .price{
@@ -1147,11 +1148,12 @@ section {
         margin-top: -30px;
     }
     .pricing-item .price-btn {
-        font-size: 16px;
+        font-size: 12px;
         padding: 5px;
-        width: 80%;
+        width: 276px;
         border-radius: 10px;
         margin-bottom: 20px;
+        height: 32px;
     }
     .testimonials h2{
         font-family: "Plus Jakarta Sans", sans-serif;
