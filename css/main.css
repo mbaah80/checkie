@@ -1729,14 +1729,28 @@ section {
         line-height: 18px;
     }
 
-    .cta-button-info,
-    .cta-button-footer {
+    .cta-button-info {
         width: 320px;
         font-size: 14px;
         height: 42px;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .cta-button-footer {
+        width: 146px;
+        font-size: 10px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 7px;
+        color: #151E3A;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-weight: 500;
+        line-height: 32px;
+        margin-bottom: 20px;
     }
 
     .mobile-show {
@@ -1746,9 +1760,19 @@ section {
     .desktop-show {
         display: none;
     }
+    .footer {
+        color: white;
+        padding: 10px;
+        text-align: center;
+        background-color: #225BEA;
+        background-image:none;
+    }
     .footer h2{
-        font-size: 14px;
-        line-height: 22px;
+        font-size: 20px;
+        line-height: 32px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
 }
 
