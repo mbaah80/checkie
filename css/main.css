@@ -1132,27 +1132,27 @@ section {
         font-weight: 600;
         display: none;
     }
+ 
     .pricing-item img{
-        width: fit-content;
-        height: 290px;
+        width: 276px;
+        height: 231.89px;
         margin-bottom: 10px;
         object-fit: cover;
-        margin-top: 10px;
     }
     .price{
-        font-size: 30px;
-        line-height: 30px;
-        margin-bottom: 10px;
+        font-size: 22px;
+        line-height: 24px;
+        margin-bottom: 20px;
         font-weight: 700;
         font-family: "Plus Jakarta Sans", sans-serif;
-        margin-top: -30px;
+        margin-top: 10px;
     }
     .pricing-item .price-btn {
         font-size: 12px;
         padding: 5px;
         width: 276px;
         border-radius: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         height: 32px;
     }
     .testimonials h2{
