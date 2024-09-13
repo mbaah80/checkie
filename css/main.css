@@ -1766,6 +1766,7 @@ section {
         text-align: center;
         background-color: #225BEA;
         background-image:none;
+        text-transform: uppercase;
     }
     .footer h2{
         font-size: 20px;
