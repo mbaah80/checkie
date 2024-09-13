@@ -1119,6 +1119,7 @@ section {
     }
     .pricing-item{
         padding: 10px;
+        height: fit-content;
     }
     .pricing-item span p{
         font-family: "Inter", sans-serif;
@@ -1128,8 +1129,8 @@ section {
         font-weight: 600;
     }
     .pricing-item img{
-        height: 100%;
         width: 100%;
+        height: fit-content;
         margin-bottom: 10px;
         object-fit: contain;
         margin-top: 10px;
