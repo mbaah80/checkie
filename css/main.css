@@ -1020,6 +1020,9 @@ section {
         padding-bottom: 10px;
         padding-right: 10px;
         font-family: "Inter", sans-serif;
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 500;
     }
     .faq-item h3 {
         margin-bottom: 0;
