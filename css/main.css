@@ -136,6 +136,11 @@ h1{
 .main-banner-button{
     margin-left: 10px;
 }
+.main-banner-button-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .main-banner-button-text{
     font-size: 18px;
     font-weight: 600;
@@ -986,6 +991,7 @@ section {
         text-align: center;
         width: 90%;
     }
+
     .how-we-help h2{
         font-family: "Plus Jakarta Sans", sans-serif;
         font-size: 26px;
@@ -1019,7 +1025,8 @@ section {
         flex-direction: column;
         align-items: left;
         justify-content: center;
-        margin-bottom: 25px;
+        margin-bottom: 15px;
+        box-shadow: none;
     }
     .help-item h3{
         font-family: "Plus Jakarta Sans", sans-serif;
@@ -1038,8 +1045,7 @@ section {
         font-size: 18px;
         height: 50px;
         width: 90%;
-        padding: 10px;
-        margin-bottom: 20px;
+        padding-left: 10px;
     }
     .help-cta-button img{
         width: 30px;
@@ -1048,7 +1054,7 @@ section {
     .how-we-help{
         border-radius: 20px;
         padding: 10px;
-        background-color: #fff;
+        background-color: #EDF5FE;
     }
     .how-it-works h2{
         font-family: "Plus Jakarta Sans", sans-serif;
@@ -1598,7 +1604,6 @@ section {
 
 @media (max-width: 540px) {
     .container {
-        padding: 0 15px;
         width: 100%;
     }
 
@@ -1618,12 +1623,12 @@ section {
         height: 100%;
     }
     .main-banner-button-text {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 20px;
     }
     .sec-banner-button-text {
-        font-size: 11px;
-        line-height: 20px;
+        font-size: 10px;
+        line-height: 10px;
     }
     .cta-button-info {
         font-size: 16px;
@@ -1635,19 +1640,22 @@ section {
         height: 12px;
     }
     .cta-button img{
-        width: 30px;
-        height: 30px;
+        width: 19px;
+        height: 19px;
         object-fit: contain;
     }
 
     .cta-button{
-        width: 90%;
         font-size: 16px;
+        height: 44px;
+        padding: 10px 20px;
     }
+
     .help-cta-button{
-        width: 80%;
+        width: 319px;
         font-size: 16px;
-        height: auto;
+       margin-bottom: 20px;
+       padding-left: 10px;
     }
     .help-cta-button img{
         width: 20px;
