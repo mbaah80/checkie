@@ -1700,12 +1700,11 @@ section {
 
     .testimonial {
         width: 100%;
-        margin-bottom: 20px;
     }
 
     .testimonial h3 {
         font-size: 22px;
-        line-height: 26px;
+        line-height: 10px;
     }
 
     .testimonial p {
