@@ -325,7 +325,8 @@ section {
     height: 444px;
     border-radius: 30px;
     color: #fff;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
     margin-right: 20px;
 }
 .step:last-child {
@@ -343,8 +344,8 @@ section {
     border-radius: 100%;
     font-size: 50px;
     font-weight: 700;
-    width: 70px;
-    height: 70px;
+    width: 53px;
+    height: 53px;
     right: 0;
     top: 0;
     left: 0;
@@ -787,8 +788,8 @@ section {
         height: 500px;
     }
     .step-content span{
-        width: 42px;
-        height: 42px;
+        width: 53px;
+        height: 53px;
         left: 70%;
         font-size: 26px;
         line-height: 39px;
