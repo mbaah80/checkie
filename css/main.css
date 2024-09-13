@@ -434,9 +434,19 @@ section {
     position: relative;
     z-index: 0;
     margin: 0 auto;
-    margin-top: 20px;
+    border:none;
 }
 
+.white-background-text{
+    background-color: #fff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin: 0 auto;
+    width: 98.8%;
+    height: 90px;
+    margin-top: -60px;
+    margin-left: 4px;
+}
 .pricing-item span p {
     font-size: 24px;
     font-weight: 700;
@@ -781,7 +791,7 @@ section {
         font-size: 24px;
         line-height: 48px;
         font-weight: 700;
-        margin-top: 65px;
+        margin-top: 70px;
         width: 100%;
         text-align: center;
         font-family: "Plus Jakarta Sans", sans-serif;
