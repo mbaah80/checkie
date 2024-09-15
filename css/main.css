@@ -29,6 +29,11 @@ p{
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding-bottom: 40px;
+}
+.steps-container{
+    max-width: 1600px;
+    margin: 0 auto;
 }
 .header{
     display: flex;
@@ -202,7 +207,6 @@ section {
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 40px;
-    padding-bottom: 40px;
     text-align: center;
     background-color: #fff;
 }
@@ -212,6 +216,7 @@ section {
     height: 144px;
     object-fit: contain;
 }
+
 
 .how-we-help h2{
     font-family: "Poppins", sans-serif;
