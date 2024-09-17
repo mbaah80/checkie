@@ -1857,7 +1857,7 @@ section {
         padding: 5px;
     }
     .video-wrapper img{
-        width: 100%;
+        width: 100vw;
         margin-bottom: 2px;
         border-radius: 4px;
     }
