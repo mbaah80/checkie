@@ -1865,6 +1865,7 @@ section {
         width: 100%;
         height: 180px;
         margin-top: -8px;
+        padding: 10px;
     }
     .main-banner-button-text {
         font-size: 14px;
