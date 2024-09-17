@@ -870,6 +870,19 @@ section {
     .help-cta-button {
         width: 100%;
     }
+
+    .video-wrapper img{
+        margin-bottom: -5px;
+        width: 100%;
+        z-index: 2;
+    }
+    .video-wrapper iframe{
+        width: 670px;
+        height: 423px;
+        object-fit: contain;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
 }
 
 /* This media query targets screens with a minimum width of 769px */
