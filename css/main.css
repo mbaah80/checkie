@@ -124,7 +124,7 @@ h1{
 }
 .video-wrapper img{
     margin-bottom: -5px;
-    width: 670px;
+    width: 100%;
     z-index: 2;
 }
 .video-wrapper iframe{
@@ -133,6 +133,7 @@ h1{
     object-fit: contain;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    z-index: 1;
 }
 .banner {
     display: flex;
