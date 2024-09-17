@@ -1426,6 +1426,11 @@ section {
     .partners-logo hr{
         width: 100%;
     }
+    .video-wrapper img {
+        width: 100%;
+        margin-bottom: 2px;
+        border-radius: 4px;
+    }
 
 }
 
