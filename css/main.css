@@ -1895,13 +1895,14 @@ section {
 
     .step{
         width: 100%;
-        height: fit-content;
+        height: 403px;
         margin-bottom: 20px;
     }
 
     .step-content img {
         width: 160px;
         height: 169px;
+        margin-top: 25px;
     }
 
     .pricing-item {
