@@ -464,7 +464,7 @@ section {
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 16px;
     font-weight: 700;
-    line-height: 27px;
+    line-height: 14px;
     background-color: #fff;
     border-radius: 20px;
     color: #235AE9;
@@ -1122,6 +1122,7 @@ section {
         height: 65px;
         object-fit: contain;
         margin-top: 10px;
+        margin-bottom: 10px;
     }
     .faq-item {
         width: 90%;
